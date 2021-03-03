@@ -1,5 +1,6 @@
 <template>
   <div class="home-topics">
+    <!-- prueba -->
     <div class="container-img-topics">
        <img src="../assets/img/Tracks-imagen.png" alt="" class="img-tracks" />
     </div>
