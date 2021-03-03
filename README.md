@@ -1,4 +1,4 @@
-# my-app
+# hbicom
 
 ## Project setup
 ```
