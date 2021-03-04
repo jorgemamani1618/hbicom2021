@@ -27,11 +27,12 @@
       </div>
       
       <div class="lateral">
-        <h2 class="title-lateral">PAYMENT RATES</h2>
+        <h2 class="title-lateral">REGISTRATION FEE FOR AUTHORS</h2>
+        <p> ( in US Dollars )</p>
         <!-- <h4 class="h4_amarillo">IMPORTANT INFORMATION</h4> -->
         <p class="parrafo-lateral">
-          Student<span class="p_bold">  </span><br />
-          Professional<span class="p_bold">  </span>
+          Professionals: <span class="p_bold"> 150 USD </span><br />
+          Undergraduate and graduate students: <span class="p_bold"> 120 USD </span>
   
           <span class="p_bold"> </span>
         </p>
@@ -156,6 +157,9 @@ export default {
   text-align: center;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  line-height: 2rem;
+ 
+  font-size: 1.2rem;
 }
 
 .p_bold {

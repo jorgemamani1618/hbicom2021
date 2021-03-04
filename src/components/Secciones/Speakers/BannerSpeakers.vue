@@ -6,13 +6,9 @@
           <div class="Title">
             <h1 class="t1">
              Speakers <br />
-     
-            </h1>
+                </h1>
           </div>
           <div class="fecha_lugar">
-            <p>
-       
-            </p>
           </div>
         </div>
       </div>
