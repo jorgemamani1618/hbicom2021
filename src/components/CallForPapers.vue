@@ -27,7 +27,7 @@
       </div>
       
       <div class="lateral">
-        <h2 class="title-lateral">REGISTRATION FEE AUTHORS</h2>
+        <h2 class="title-lateral">REGISTRATION FEE FOR AUTHORS</h2>
         <p> ( in US Dollars )</p>
         <!-- <h4 class="h4_amarillo">IMPORTANT INFORMATION</h4> -->
         <p class="parrafo-lateral">
