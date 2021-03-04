@@ -18,7 +18,7 @@
           capable of sending imaging acquisitions asynchronously over low
           Internet bandwidth for remote interpretation.
         </p>
-        <!-- <h3>See all conferences</h3> -->
+ 
       </div>
       <div>
         <img
@@ -59,8 +59,7 @@ export default {};
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
+  align-items: center;  
 }
 
 .conferences-title {
