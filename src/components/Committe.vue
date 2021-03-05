@@ -421,10 +421,9 @@ export default {
     justify-content: space-between;
   }
   .p-technical-committe {
-  line-height: 2rem;
-  margin:0 0 0 1rem;
-  color:#000000;
-
+    line-height: 2rem;
+    margin:0 0 0 1rem;
+    color:#000000;
   }
 
 
