@@ -94,226 +94,94 @@
 
 
           <div v-if="activetab === 2" class="tabcontent">
-            <div class="container-committe-list">
-              
-              <h1 class="title-white">Technical Committe</h1>
-              
-              <ul class="committe-list">
-                
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Jose Amaya Palacios</h3>
-                  <span class="text-names">Universidad de Santander - Colombia</span>
-                </li>
 
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Robertto Kenji Hiramatsu </h3>
-                  <span class="text-names">Universidade Federal de Pernambuco - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Miguel Gonzales Mendoza  </h3>
-                  <span class="text-names">Tecnologico de Monterrey - Mexico</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Sergio Takeo Kofuji  </h3>
-                  <span class="text-names">Escola Politecnica da Universidade de São Paulo - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. João Neto </h3>
-                  <span class="text-names">Universidade Federal do Reconcavo da Bahia - Brasil </span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Augusto Neto  </h3>
-                  <span class="text-names">Universidade Federal de Natal - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Joel Rodrigues  </h3>
-                  <span class="text-names">Universidade Federal do Piau - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Jorge R. Beingolea </h3>
-                  <span class="text-names">Escola Politecnica da Universidade de São Paulo - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Marcelo Texeira  </h3>
-                  <span class="text-names">Escola Politecnica da Universidade de São Paulo - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Rodrigo Alvaro Brandão </h3>
-                  <span class="text-names">Universidade Estadual de Campinas - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Hiro Goto </h3>
-                  <span class="text-names">Universidade de São Paulo - Brasil</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Daniel Gustavo Goroso  </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Silvia Martini Rodrigues  </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Katia Mugnol  </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Alessandro Silva  </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Simone Siqueira da Fonseca  </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Marcia Bissaco  </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr.  Terigi Scardovelli </h3>
-                  <span class="text-names">Universidade de Mogi das Cruzes - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Hugo Daniel Hernandez  </h3>
-                  <span class="text-names">Universidade Federal de Minas Gerais - Brasil</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Edison Cobo  </h3>
-                  <span class="text-names">Universidad de Antioquia – Medellin - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Natalia Gaviria  </h3>
-                  <span class="text-names">Universidad de Antioquia – Medellin - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Gustavo  Patiño  </h3>
-                  <span class="text-names">Universidad de Antioquia – Medellin - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Ana Maria Cardenas  </h3>
-                  <span class="text-names">Universidad de Antioquia – Medellin - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Natalia Gaviria  </h3>
-                  <span class="text-names">Universidad de Antioquia – Medellin - Colombia</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Monica Vallejo  </h3>
-                  <span class="text-names">Universidad Nacional de Colombia - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Verónica Botero  </h3>
-                  <span class="text-names">Universidad Nacional de Colombia - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Freddy Bolaños  Martinez </h3>
-                  <span class="text-names">Universidad Nacional de Colombia - Colombia</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Jairo Jose Espiniza  </h3>
-                  <span class="text-names">Universidad Nacional de Colombia - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Leonardo Betancourt </h3>
-                  <span class="text-names">Universidad Pontificia Bolivariana - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Roberto Hincapié </h3>
-                  <span class="text-names">Universidad Pontificia Bolivariana - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo"> Dr. Xavier Rubio Loyola</h3>
-                  <span class="text-names">Cinvestav - Mexico</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Monica Huerta  </h3>
-                  <span class="text-names">Universidad Salesiana - Ecuador</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Eduardo T. Ueda </h3>
-                  <span class="text-names">Instituto de Pesquisas Tecnologicas – IPT - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Eduardo L. Machado </h3>
-                  <span class="text-names">Instituto de Pesquisas Tecnologicas – IPT - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Juliana Cardoso </h3>
-                  <span class="text-names">Instituto de Pesquisas Tecnologicas – IPT - Brasil</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Anderson Silva </h3>
-                  <span class="text-names">Instituto de Pesquisas Tecnologicas – IPT - Brasil</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dra. Trilce Estrada </h3>
-                  <span class="text-names">University New Mexico </span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Diogo Oliveira  </h3>
-                  <span class="text-names">Florida State University - EEUU</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Jorge Gómes Sanz </h3>
-                  <span class="text-names">Universidad Complutense de Madrid – España</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. André Luis Meneses</h3>
-                  <span class="text-names">Universidade Federal de Sergipe - Brasil</span>
-                </li>
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. José Perez Alcazar </h3>
-                  <span class="text-names">Universidade de São Paulo - Brasil</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Esteban Tuesta  </h3>
-                  <span class="text-names">Universidade de São Paulo - Brasil</span>
-                </li>
-
-
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Edwin Montoya</h3>
-                  <span class="text-names">Universidad EAFIT - Colombia</span>
-                </li>
-                <li class="committe-item">
-                  <h3 class="committe-cargo">Dr. Luis Hernandez  Callejo </h3>
-                  <span class="text-names">Universidad Vallodolid - España</span>
-                </li>
-
-
-              </ul>
-            </div>
+            <div class="container-committe-list" v-if="!show">
+      <h1 class="title-white">Technical Committe</h1>
+      <div class="container-technical-committe-list">
+        <div>
+          <ul class="committe-list">
+            <p class="p-technical-committe">
+              Dr. Jose Amaya Palacios – Universidad de Santander - Colombia<br />
+              Dr. Robertto Kenji Hiramatsu – Universidade Federal de Pernambuco
+              - Brasil<br />
+              Dr. Miguel Gonzales Mendoza – Tecnologico de Monterrey - Mexico<br />
+              Dr. Sergio Takeo Kofuji – Escola Politecnica da Universidade de
+              São Paulo - Brasil<br />
+              Dr. João Neto – Universidade Federal do Reconcavo da Bahia -
+              Brasil<br />
+              Dr. Augusto Neto – Universidade Federal de Natal - Brasil<br />
+              Dr. Joel Rodrigues – Universidade Federal do Piau - Brasil<br />
+              Dr. Jorge R. Beingolea – Escola Politecnica da Universidade de São
+              Paulo - Brasil<br />
+              Dr. Marcelo Texeira – Escola Politecnica da Universidade de São
+              Paulo - Brasil<br />
+              Dr. Rodrigo Alvaro Brandão – Universidade Estadual de Campinas -
+              Brasil<br />
+              Dra. Hiro Goto – Universidade de São Paulo - Brasil<br />
+              Dr. Daniel Gustavo Goroso – Universidade de Mogi das Cruzes -
+              Brasil<br />
+              Dra. Silvia Martini Rodrigues - Universidade de Mogi das Cruzes -
+              Brasil<br />
+              Dra. Katia Mugnol - Universidade de Mogi das Cruzes - Brasil<br />
+              Dr. Alessandro Silva - Universidade de Mogi das Cruzes - Brasil<br />
+              Dra. Simone Siqueira da Fonseca - Universidade de Mogi das Cruzes
+              - Brasil<br />
+              Dra. Marcia Bissaco - Universidade de Mogi das Cruzes - Brasil<br />
+              Dr. Terigi Scardovelli - Universidade de Mogi das Cruzes -
+              Brasil<br />
+              Dr. Hugo Daniel Hernandez – Universidade Federal de Minas Gerais -
+              Brasil<br />
+              Dr. Edison Cobo – Universidad de Antioquia – Medellin -
+              Colombia<br />
+              Dra. Natalia Gaviria – Universidad de Antioquia – Medellin -
+              Colombia<br />
+            </p>
+          </ul>
+        </div>
+        <div>
+          <ul class="committe-list">
+            <p class="p-technical-committe">
+              Dr. Gustavo Patiño – Universidad de Antioquia – Medellin -
+              Colombia <br />
+              Dra. Ana Maria Cardenas – Universidad de Antioquia – Medellin -
+              Colombia <br />
+              Dra. Natalia Gaviria – Universidad de Antioquia – Medellin -
+              Colombia <br />
+              Dra. Monica Vallejo – Universidad Nacional de Colombia - Colombia
+              <br />
+              Dra. Verónica Botero – Universidad Nacional de Colombia - Colombia
+              <br />
+              Dr. Freddy Bolaños Martinez – Universidad Nacional de Colombia -
+              Colombia<br />
+              Dr. Jairo Jose Espiniza – Universidad Nacional de Colombia -
+              Colombia<br />
+              Dr. Leonardo Betancourt – Universidad Pontificia Bolivariana -
+              Colombia<br />
+              Dr. Roberto Hincapié – Universidad Pontificia Bolivariana -
+              Colombia<br />
+              Dr. Xavier Rubio Loyola – Cinvestav - Mexico<br />
+              Dra. Monica Huerta – Universidad Salesiana - Ecuador<br />
+              Dr. Eduardo T. Ueda – Instituto de Pesquisas Tecnologicas – IPT -
+              Brasil<br />
+              Dr. Eduardo L. Machado – Instituto de Pesquisas Tecnologicas – IPT
+              - Brasil<br />
+              Dra. Juliana Cardoso – Instituto de Pesquisas Tecnologicas – IPT -
+              Brasil<br />
+              Dr. Anderson Silva – Instituto de Pesquisas Tecnologicas – IPT -
+              Brasil<br />
+              Dra. Trilce Estrada – University New Mexico<br />
+              Dr. Diogo Oliveira – Florida State University - EEUU<br />
+              Dr. Jorge Gómes Sanz – Universidad Complutense de Madrid –
+              España<br />
+              Dr. André Luis Meneses – Universidade Federal de Sergipe -
+              Brasil<br />
+              Dr. José Perez Alcazar - Universidade de São Paulo - Brasil<br />
+              Dr. Esteban Tuesta - Universidade de São Paulo - Brasil<br />
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
           </div>
 
       </div>
@@ -490,6 +358,78 @@ export default {
   background-color: var(--white-gray);
 }
 
+.container {  
+    max-width: auto; 
+    min-width: auto;
+    margin: 10px;
+    font-size: 0.9em;
+    color:#007fe5;
+}
+
+.tabs {
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: -2px; 
+}
+
+.tabs ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.tabs a{
+    float: left;
+    cursor: pointer;
+    padding: 12px 24px;
+    transition: background-color 0.2s;
+    border: 1px solid #ccc;
+    border-right: none;
+    background-color: #f1f1f1;
+    border-radius: 10px 10px 0 0;
+    font-weight: bold;
+}
+.tabs a:last-child { 
+    border-right: 1px solid #ccc;
+}
+
+/* Change background color of tabs on hover */
+.tabs a:hover {
+    background-color: #007fe5;
+    color: #fff;
+}
+
+/* Styling for active tab */
+.tabs a.active {
+    background-color: #fff;
+    color: #484848;
+    border-bottom: 2px solid #fff;
+    cursor: default;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  box-shadow: 3px 3px 6px #e1e1e1
+}
+
+ .container-technical-committe-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .p-technical-committe {
+  line-height: 2rem;
+  margin:0 0 0 1rem;
+  color:#000000;
+
+  }
+
+
+
+
 @media only screen and (min-width: 600px) {
   .container-main-lateral {
     display: flex;
@@ -578,7 +518,6 @@ export default {
     max-width: auto; 
     min-width: auto;
     margin: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     color:#007fe5;
 }
@@ -630,6 +569,22 @@ export default {
     border-radius: 10px;
   box-shadow: 3px 3px 6px #e1e1e1
 }
+
+ .container-technical-committe-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .p-technical-committe {
+  line-height: 2rem;
+  margin:0 0 0 1rem;
+  color:#000000;
+
+  }
+
+
+
 }
 </style>
 
