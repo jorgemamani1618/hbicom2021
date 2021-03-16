@@ -28,9 +28,9 @@
             <!-- <img class="icon-menu" src="../assets/icons/icon-nav-program.svg" /> -->
          <p>Program</p>
           </div>
-          <div v-on:click="nav_to('Committe')" class="container-nav-item">
+          <div v-on:click="nav_to('Committee')" class="container-nav-item">
             <!-- <img class="icon-menu" src="../assets/icons/icon-nav-committe.svg" /> -->
-          <p> Committe</p>
+          <p> Committee</p>
           </div>
           <div v-on:click="nav_to('Accomodation')" class="container-nav-item">
             <!-- <img class="icon-menu" src="../assets/icons/icon-nav-accomodation.svg" /> -->
