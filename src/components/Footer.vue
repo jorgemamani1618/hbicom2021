@@ -4,62 +4,33 @@
       <div class="contact-form">
         <h3 class="title-footer">Questions?</h3>
         <div class="container form">
-          <!-- COMPLETAR El FORM  ACTION METHOD-->
-          <form>
+          <form @submit.prevent="sendEmail">
+
             <div class="field">
-              <label
-                for="name"
-                class="label is-size-4 has-text-weight-light"
-              ></label>
+              <label for="name" class="label is-size-4 has-text-weight-light" />
               <div class="control has-icons-left">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  class="input"
-                  placeholder="Name"
-                  autofocus
-                />
+                <input type="text" name="user_name" id="name" class="input" placeholder="Name" />
               </div>
             </div>
+
             <div class="field">
-              <label
-                for="email"
-                class="label is-size-4 has-text-weight-light"
-              ></label>
+              <label for="email" class="label is-size-4 has-text-weight-light" />
               <div class="control has-icons-left">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  class="input"
-                  placeholder="Email"
-                />
+                <input type="email" name="user_email" id="email" class="input" placeholder="Email" />
               </div>
             </div>
+
             <div class="field">
-              <label
-                for="message"
-                class="label is-size-4 has-text-weight-light"
-              ></label>
-              <textarea
-                name="message"
-                id="message"
-                rows="5"
-                class="textarea is-medium"
-                placeholder="Message"
-              ></textarea>
+              <label for="message" class="label is-size-4 has-text-weight-light" />
+              <textarea name="message" id="message" rows="5" class="textarea is-medium" placeholder="Message" />
             </div>
-            <button
-              type="submit"
-              class="button is-success is-size-5"
-              href="/Home"
-            >
-              Submit
-            </button>
+            <input type="submit" value="Send Message" class="button is-success is-size-5" href="/Home">
           </form>
         </div>
       </div>
+
+
+
       <div class="location">
         <h3 class="title-footer">Location</h3>
         <iframe
@@ -110,6 +81,7 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com';
 export default {
   name: "footercomponent",
   data() {
@@ -117,6 +89,18 @@ export default {
       msg: "Welcome to Footer",
     };
   },
+  methods: {
+    sendEmail: (e) => {
+      emailjs.sendForm('service_p91jk5c','template_i4gyexd', e.target, 'user_FAbn9HEL5z1bYqyn2hv5B')
+        .then((result) => {
+            console.log('SUCCESS!', result.status, result.text);
+        }, (error) => {
+            console.log('FAILED...', error);
+        });
+    }
+  }
+
+
 };
 </script>
 
@@ -149,6 +133,7 @@ export default {
 }
 
 .field {
+  background: be;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -172,7 +157,7 @@ export default {
   padding: 0.5rem 5%;
 }
 .button.is-success.is-size-5 {
-  width: 40%;
+  width: 100%;
   height: 2.5rem;
   background-color: var(--secondary1);
   border-style: none;
