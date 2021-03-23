@@ -18,6 +18,7 @@ import HeaderComponent from "./components/Header";
 import Banner from "./components/BannerPortada";
 import NavBar from "./components/NavbarResponsive";
 import FooterComponent from "./components/Footer";
+
  
  
 export default {
