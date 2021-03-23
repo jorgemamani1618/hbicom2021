@@ -40,14 +40,14 @@
     </div>
 
     <nav class="tabs">
-      <button class="tabs__item" @click="show=true" v-bind:class="{tabs__item_active :show}">Organizing Committe</button>
+      <button class="tabs__item" @click="show=true" v-bind:class="{tabs__item_active :show}">Organizing Committee</button>
       <!-- active tab -->
-      <button class="tabs__item" @click="show=false" v-bind:class="{tabs__item_active :!show}">Technical Committe</button>
+      <button class="tabs__item" @click="show=false" v-bind:class="{tabs__item_active :!show}">Technical Committee</button>
 
       <div class="tabs__active-line"></div>
     </nav>
     <div class="container-committe-list" v-if="show">
-      <h1 class="title-white">Organizing Committe</h1>
+      <h1 class="title-white">Organizing Committee</h1>
       <ul class="committe-list">
         <li class="committe-item">
           <h3 class="committe-cargo">General Chair</h3>
@@ -84,7 +84,7 @@
       </ul>
     </div>
     <div class="container-committe-list" v-if="!show">
-      <h1 class="title-white">Technical Committe</h1>
+      <h1 class="title-white">Technical Committee</h1>
       <div class="container-technical-committe-list">
         <div>
           <ul class="committe-list">
@@ -178,11 +178,11 @@
 
 <script>
 import Partners from "../components/Partners";
-import Banner from "../components/PortadaCommitte";
+import Banner from "../components/PortadaCommittee";
 import Tabs from "vue-tabs-with-active-line";
 
 export default {
-  name: "committe",
+  name: "committee",
 
   components: {
     Partners,
@@ -191,7 +191,7 @@ export default {
   },
 
   data: () => ({
-    msg: "Welcome to Committe",
+    msg: "Welcome to Committee",
     show: true,
     tabs: [
       { title: "Tab 1", value: "tab1" },

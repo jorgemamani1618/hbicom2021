@@ -19,6 +19,7 @@
                   class="input"
                   placeholder="Name"
                   autofocus
+                  v-model="searchText"
                 />
               </div>
             </div>
@@ -115,6 +116,7 @@ export default {
   data() {
     return {
       msg: "Welcome to Footer",
+searchText:"Default",
     };
   },
 };
