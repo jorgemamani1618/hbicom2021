@@ -37,7 +37,7 @@
           <span class="p_bold"> </span>
         </p>
         <a
-          href="https://easychair.org/"
+          href="https://easychair.org/conferences/?conf=hbicom2021"
           class="button-primary"
           role="button"
           target="_blank"
