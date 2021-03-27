@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Committee from "../components/Committee";
-import CallForPapers from "../components/CallForPapers";
-import Speakers from "../components/Secciones/Speakers/Speakers";
-import ComingSoon from "../components/ComingSoon";
+import Committee from '../components/Committee'
+import CallForPapers from '../components/CallForPapers'
+import Speakers from '../components/Secciones/Speakers/Speakers'
+import ComingSoon from '../components/ComingSoon'
 
 Vue.use(VueRouter)
 

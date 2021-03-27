@@ -4,7 +4,7 @@
         <div class="container-timer">
           <h3 class="timer-title"> Papers Submissions Deadline</h3>
           <Timer
-          starttime="April 02, 2021 23:59:59"
+          starttime="July 11, 2021 23:59:59"
           endtime="Nov 15, 2021 12:00:00"
           trans='{  
          "day":"Days",
@@ -44,12 +44,12 @@
         <h4 class="h4_amarillo">IMPORTANT DEADLINES</h4>
         <p class="parrafo-lateral">
           Paper Submission Deadline:
-          <span class="p_bold">02 April 2021 </span><br />
-          Notification of Acceptance:<span class="p_bold"> 03 May 2021</span>
+          <span class="p_bold">11 July 2021 </span><br />
+          Notification of Acceptance:<span class="p_bold"> 08 August 2021</span>
           <br />
 
           Final Paper Submission Deadline:
-          <span class="p_bold">10 May 2021</span>
+          <span class="p_bold">16 August 2021</span>
         </p>
         <router-link to="/CallForPapers/#topics" class="button-primary"
           >Submit Now!</router-link

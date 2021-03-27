@@ -12,12 +12,12 @@
           <div class="Parrafo">
             <p class="parrafo-main">
               Paper Submission Deadline:
-              <span class="p_bold">02 April 2021 </span><br />
+              <span class="p_bold">11 July 2021 </span><br />
               Notification of Acceptance:<span class="p_bold">
-              03 May 2021</span>
+              08 August 2021</span>
               <br />
               Final Paper Submission Deadline:
-              <span class="p_bold">10 May 2021</span>
+              <span class="p_bold">16 August 2021</span>
             </p>
             <!-- <button class="button_cfp" type="button">Author Guidelines!</button> -->
             <a href="#section-author-guidelines" class="button-primary">
