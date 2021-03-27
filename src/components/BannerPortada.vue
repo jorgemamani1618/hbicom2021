@@ -11,7 +11,7 @@
             </h1>
           </div>
           <div class="fecha_lugar">
-            <h4 class="text_fecha">15-18 June, 2021</h4>
+            <h4 class="text_fecha">04-07 October, 2021</h4>
           </div>
         </div>
       </div>
