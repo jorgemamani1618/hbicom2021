@@ -42,14 +42,14 @@
     <div id="tabs" class="container">
   
       <div class="tabs">
-          <a v-on:click="activetab=1" v-bind:class="[ activetab === 1 ? 'active' : '' ]">Organizing Committe</a>
-          <a v-on:click="activetab=2" v-bind:class="[ activetab === 2 ? 'active' : '' ]">Technical Committe</a>
+          <a v-on:click="activetab=1" v-bind:class="[ activetab === 1 ? 'active' : '' ]">Organizing Committee</a>
+          <a v-on:click="activetab=2" v-bind:class="[ activetab === 2 ? 'active' : '' ]">Technical Committee</a>
       </div>
 
       <div class="content">
           <div v-if="activetab === 1" class="tabcontent">
             <div class="container-committe-list">
-              <h1 class="title-white">Organizing Committe</h1>
+              <h1 class="title-white">Organizing Committee</h1>
               
               <ul class="committe-list">
 
@@ -80,7 +80,7 @@
                     </li>
 
                     <li class="committe-item">
-                      <h3 class="committe-cargo">Protocol Committe</h3>
+                      <h3 class="committe-cargo">Protocol Committee</h3>
                       <span class="text-names">Msc. Renzo G. Bolivar Valdivia</span>
                     </li>
 
@@ -96,7 +96,7 @@
           <div v-if="activetab === 2" class="tabcontent">
 
             <div class="container-committe-list" v-if="!show">
-      <h1 class="title-white">Technical Committe</h1>
+      <h1 class="title-white">Technical Committee</h1>
       <div class="container-technical-committe-list">
         <div>
           <ul class="committe-list">

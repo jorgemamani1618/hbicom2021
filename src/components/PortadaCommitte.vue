@@ -4,7 +4,7 @@
       <div class="banner-capa2">
         <div class="texto_banner">
           <div class="Title">
-            <h1 class="t1">Committe <br /></h1>
+            <h1 class="t1">Committee <br /></h1>
           </div>
           <div class="fecha_lugar">
             <!-- <p>

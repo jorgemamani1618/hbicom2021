@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Committe from "../components/Committe";
+import Committee from "../components/Committe";
 import CallForPapers from "../components/CallForPapers";
 import Speakers from "../components/Secciones/Speakers/Speakers";
 import ComingSoon from "../components/ComingSoon";
@@ -15,9 +15,9 @@ const routes = [{
     },
 
     {
-        path: '/Committe',
-        name: 'Committe',
-        component: Committe
+        path: '/Committee',
+        name: 'Committee',
+        component: Committee
     },
     {
         path: '/CallForPapers',
