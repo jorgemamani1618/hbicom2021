@@ -9,7 +9,10 @@
             <div class="field">
               <label for="name" class="label is-size-4 has-text-weight-light" />
               <div class="control has-icons-left">
-                <input type="text" name="user_name" id="name" class="input" placeholder="Name" />
+                <input type="text" v-model="user_name" name="user_name" id="name" class="input" placeholder="Name" />
+                <p v-if="!user_name" class="alert alert-danger">
+                  Este campo es obligatorio
+                </p>
               </div>
             </div>
 
@@ -26,6 +29,7 @@
             </div>
             <input type="submit" value="Send Message" class="button is-success is-size-5" href="/Home">
           </form>
+          <p class="confirmation" v-if="confirmation_flag">Message sent succesfully </p>
         </div>
       </div>
 
@@ -86,15 +90,20 @@ export default {
   name: "footercomponent",
   data() {
     return {
+      user_name: '',
+      confirmation_flag: false,
       msg: "Welcome to Footer",
-searchText:"Default",
+      searchText:"Default",
     };
   },
   methods: {
-    sendEmail: (e) => {
+    sendEmail: function(e) {
       emailjs.sendForm('service_p91jk5c','template_i4gyexd', e.target, 'user_FAbn9HEL5z1bYqyn2hv5B')
         .then((result) => {
+          this.confirmation_flag = true;
             console.log('SUCCESS!', result.status, result.text);
+            console.log(this.confirmation_flag);
+
         }, (error) => {
             console.log('FAILED...', error);
         });
@@ -132,6 +141,14 @@ searchText:"Default",
 .container.form {
   width: 70%;
 }
+.confirmation {
+  text-align: left;
+  color: var(--white);
+  padding: 10px;
+  /*border-style: solid;
+  border-color:var(--white);
+  border-width: 1px;*/
+}
 
 .field {
   background: be;
@@ -166,6 +183,7 @@ searchText:"Default",
   margin: 0.5rem 0;
   color: var(--white);
 }
+
 
 /* -------- Mapa incrustado---------- */
 .location {
