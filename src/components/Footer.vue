@@ -5,27 +5,30 @@
         <h3 class="title-footer">Questions?</h3>
         <div class="container form">
           <form @submit.prevent="sendEmail">
-
             <div class="field">
               <label for="name" class="label is-size-4 has-text-weight-light" />
               <div class="control has-icons-left">
-                <input type="text" v-model="user_name" name="user_name" id="name" class="input" placeholder="Name" />
-                <p v-if="!user_name" class="alert alert-danger">
-                  Este campo es obligatorio
-                </p>
+                <input type="text" v-model="contacto.user_name" name="user_name" id="name" class="input" placeholder="Name" />
+                <div class="error" v-if="submited && !$v.contacto.user_name.required">This field is neccesary </div>
+                <div class="error" v-if="submited && !$v.contacto.user_name.minLength">This field must be at least 6 characters long</div>
               </div>
             </div>
 
             <div class="field">
               <label for="email" class="label is-size-4 has-text-weight-light" />
               <div class="control has-icons-left">
-                <input type="email" name="user_email" id="email" class="input" placeholder="Email" />
+                <input type="email" v-model="contacto.user_email" name="user_email" id="email" class="input" placeholder="Email" />
+                <div class="error" v-if="submited && !$v.contacto.user_email.required">This field is neccesary </div>
+                <div class="error" v-if="submited && !$v.contacto.user_email.email">You must enter a valid email</div>
               </div>
             </div>
 
             <div class="field">
               <label for="message" class="label is-size-4 has-text-weight-light" />
-              <textarea name="message" id="message" rows="5" class="textarea is-medium" placeholder="Message" />
+              <textarea name="message" v-model="contacto.user_message" id="message" rows="5" class="textarea is-medium" placeholder="Message" />
+              <div class="error" v-if="submited && !$v.contacto.user_message.required">This field is neccesary </div>
+              <div class="error" v-if="submited && !$v.contacto.user_message.minLength">This field must be at least 10 characters long</div>
+              <div class="error" v-if="submited && !$v.contacto.user_message.maxLength">This field must be 240 characters maximum</div>
             </div>
             <input type="submit" value="Send Message" class="button is-success is-size-5" href="/Home">
           </form>
@@ -86,31 +89,70 @@
 
 <script>
 import emailjs from 'emailjs-com';
+import {required, minLength, email, maxLength} from '../../node_modules/vuelidate/lib/validators';
+
 export default {
+
   name: "footercomponent",
   data() {
     return {
-      user_name: '',
+      submited: false,
+      contacto: {
+        user_name: '',
+        user_email: '',
+        user_message: ''
+      },
       confirmation_flag: false,
       msg: "Welcome to Footer",
       searchText:"Default",
     };
   },
   methods: {
+    procesar() {
+      this.submited = true;
+      this.$v.$touch();
+      if(this.$v.$invalid){
+        return false;
+      }
+    },
     sendEmail: function(e) {
-      emailjs.sendForm('service_p91jk5c','template_i4gyexd', e.target, 'user_FAbn9HEL5z1bYqyn2hv5B')
+        this.submited = true;
+      this.$v.$touch();
+      if(this.$v.$invalid){
+        return false;
+      }
+        emailjs.sendForm('service_p91jk5c','template_i4gyexd', e.target, 'user_FAbn9HEL5z1bYqyn2hv5B')
         .then((result) => {
           this.confirmation_flag = true;
             console.log('SUCCESS!', result.status, result.text);
             console.log(this.confirmation_flag);
+            this.contacto.user_name = '';
+            this.contacto.user_email = '';
+            this.contacto.user_message = '';
+            this.submited = false;
 
         }, (error) => {
             console.log('FAILED...', error);
         });
-    }
-  }
-
-
+    },
+  },
+  validations: {
+      contacto: {
+        user_name: {
+          required,
+          minLength: minLength(6),
+        },
+        user_email: {
+          required,
+          email,
+        },
+        user_message: {
+          required,
+          minLength: minLength(10),
+          maxLength: maxLength(240),
+        }
+      }
+    },
 };
 </script>
 
@@ -148,6 +190,14 @@ export default {
   /*border-style: solid;
   border-color:var(--white);
   border-width: 1px;*/
+}
+.error {
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  color: var(--error);
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 .field {
