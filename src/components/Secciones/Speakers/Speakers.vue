@@ -48,7 +48,7 @@
       </div>
     </div>
 
-    <div class="container-speaker-item">
+    <!-- <div class="container-speaker-item">
       <div class="foto-speaker">
         <img
           src="../../../assets/img/speakers/speakers-04.png"
@@ -59,9 +59,7 @@
       <div class="container-descripcion">
         <div class="nombre-ponente">
           <h1 class="nombre">Rodrigo Alvaro Lopes Martins</h1>
-          <!-- <h3 class="cargo">
-            Universidade de São Paulo (USP). Faculdade de Medicina (FM)
-          </h3> -->
+          
         </div>
 
         <div>
@@ -87,7 +85,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container-speaker-item">
       <div class="foto-speaker">
@@ -123,7 +121,7 @@
       </div>
     </div>
 
-    <div class="container-speaker-item">
+    <!-- <div class="container-speaker-item">
       <div class="foto-speaker">
         <img
           src="../../../assets/img/speakers/speakers-05.png"
@@ -134,9 +132,7 @@
       <div class="container-descripcion">
         <div class="nombre-ponente">
           <h1 class="nombre">José Alejandro Amaya Palacio</h1>
-          <!-- <h3 class="cargo">
-            Universidade de São Paulo (USP). Faculdade de Medicina (FM)
-          </h3> -->
+         
         </div>
 
         <div>
@@ -155,7 +151,7 @@
           </p>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container-speaker-item">
       <div class="foto-speaker">

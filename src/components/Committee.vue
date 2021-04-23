@@ -123,22 +123,24 @@
               Colombia<br />
               Dra. Natalia Gaviria – Universidad de Antioquia – Medellin -
               Colombia<br />
+              Dr. Gustavo Patiño – Universidad de Antioquia – Medellin -
+              Colombia <br />
+              Dra. Ana Maria Cardenas – Universidad de Antioquia – Medellin -
+              Colombia <br />
+            
+              Dra. Monica Vallejo – Universidad Nacional de Colombia - Colombia
+              <br />
+              Dra. Verónica Botero – Universidad Nacional de Colombia - Colombia
+              <br />
+
+
             </p>
           </ul>
         </div>
         <div>
           <ul class="committe-list">
             <p class="p-technical-committe">
-              Dr. Gustavo Patiño – Universidad de Antioquia – Medellin -
-              Colombia <br />
-              Dra. Ana Maria Cardenas – Universidad de Antioquia – Medellin -
-              Colombia <br />
-              Dra. Natalia Gaviria – Universidad de Antioquia – Medellin -
-              Colombia <br />
-              Dra. Monica Vallejo – Universidad Nacional de Colombia - Colombia
-              <br />
-              Dra. Verónica Botero – Universidad Nacional de Colombia - Colombia
-              <br />
+          
               Dr. Freddy Bolaños Martinez – Universidad Nacional de Colombia -
               Colombia<br />
               Dr. Jairo Jose Espiniza – Universidad Nacional de Colombia -
@@ -165,6 +167,18 @@
               Brasil<br />
               Dr. José Perez Alcazar - Universidade de São Paulo - Brasil<br />
               Dr. Esteban Tuesta - Universidade de São Paulo - Brasil<br />
+              Dr. Pari Pinto Lizardo - Universidad Nacional de San Agustín de Arequipa <br />
+              Talavera Suarez Jesus	- Universidad Nacional De San Agustín De Arequipa<br />
+              Gomez-Cornejo Gonzales Harold - Universidad Nacional de San Agustín de Arequipa<br />
+              Rendulich Talavera Jorge -	Universidad Nacional de San Agustín de Arequipa<br />
+              Mayhua Lopez Efrain -	Universidad Católica San Pablo<br />
+              Cartagena Gordillo Alex -	Universidad Nacional Tecnológica De Lima Sur<br />
+              Roman Gonzalez Avid -	Universidad Nacional Tecnológica De Lima Sur<br />
+              Clemente Arenas Mark - Universidad Nacional Tecnológica De Lima Sur<br />
+              Lezama Calvo Jinmi Gregory - Universidad Nacional Tecnológica De Lima Sur<br />
+              Alexander Hilario Tacuri - Universidad Nacional de San Agustín de Arequipa<br />
+              Romildo Torres da Silva - Universidade de São Paulo - Brasil<br />
+              Euler E. Apaza Medina - Universidade de São Paulo - Brasil<br />
             </p>
           </ul>
         </div>
@@ -426,7 +440,7 @@ export default {
   }
 
   .main {
-    width: 60%;
+    width: 80%;
     flex-direction: row;
   }
 
@@ -434,7 +448,7 @@ export default {
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-    width: 80%;
+    width: 90%;
   }
   .parrafo-main {
     text-align: left;
@@ -447,7 +461,7 @@ export default {
 
   .container-committe-list {
     align-items: flex-start;
-    padding: 0 10vw;
+    padding: 0 7vw;
   }
   .committe-list {
     text-align: left;
