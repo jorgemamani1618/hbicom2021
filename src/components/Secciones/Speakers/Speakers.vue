@@ -12,7 +12,19 @@
       </div>
       <div class="container-descripcion">
         <div class="nombre-ponente">
+          <img
+            src="https://flagcdn.com/56x42/br.png"
+            srcset="
+              https://flagcdn.com/112x84/br.png  2x,
+              https://flagcdn.com/168x126/br.png 3x
+            "
+            width="56"
+            height="42"
+            alt="Brasil"
+            class="flag"
+          />
           <h1 class="nombre">Hiro Goto</h1>
+
           <!-- <h3 class="cargo">
             Universidade de São Paulo (USP). Faculdade de Medicina (FM)
           </h3> -->
@@ -48,7 +60,104 @@
       </div>
     </div>
 
-    <!-- <div class="container-speaker-item">
+    <div class="container-speaker-item">
+      <div class="foto-speaker">
+        <img
+          src="../../../assets/img/speakers/speakers_Jose Ayala.png"
+          alt=""
+          class="foto-ponente"
+        />
+      </div>
+      <div class="container-descripcion">
+        <div class="nombre-ponente">
+          <img
+            src="https://flagcdn.com/56x42/es.png"
+            srcset="
+              https://flagcdn.com/112x84/es.png  2x,
+              https://flagcdn.com/168x126/es.png 3x
+            "
+            width="56"
+            height="42"
+            alt="España"
+            class="flag"
+          />
+          <h1 class="nombre">Jose L. Ayala</h1>
+
+          <!-- <h3 class="cargo">
+            Universidade de São Paulo (USP). Faculdade de Medicina (FM)
+          </h3> -->
+        </div>
+
+        <div>
+          <p class="biografia">
+            Professor at Department in Computer Architecture in Complutense
+            University of Madrid (UCM). He has a PhD in Electrical and Computer
+            Engineering, MSc in Applied Physics, and a Bachelor in
+            Neuropsychology. Before his position in UCM, he has served as
+            Invited Professor in EPFL (Switzerland) and UCLA (USA). His research
+            interests are in the predictive modeling of complex biological
+            systems, using machine learning techniques, with a strong interest
+            in the clinical practice. In this area, he has applied his research
+            in problems like prediction and ambulatory monitoring of pain crises
+            in migraine and oncological patients, early diagnosis of dementia
+            from genetic data and neuroimage, mHealth platforms for effective
+            interventions in cardiovascular risk, etc.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-speaker-item">
+      <div class="foto-speaker">
+        <img
+          src="../../../assets/img/speakers/speakers_Monica Huerta.png"
+          alt=""
+          class="foto-ponente"
+        />
+      </div>
+      <div class="container-descripcion">
+        <div class="nombre-ponente">
+          <img
+            src="https://flagcdn.com/56x42/ve.png"
+            srcset="
+              https://flagcdn.com/112x84/ve.png  2x,
+              https://flagcdn.com/168x126/ve.png 3x
+            "
+            width="56"
+            height="42"
+            alt="Venezuela"
+            class="flag"
+          />
+          <h1 class="nombre">Mónica Karel Huerta</h1>
+
+          <!-- <h3 class="cargo">
+            Universidade de São Paulo (USP). Faculdade de Medicina (FM)
+          </h3> -->
+        </div>
+
+        <div>
+          <p class="biografia">
+            Graduada en Ingeniería Electrónica en 1994 y de Magister en Ing.
+            Biomédica en 1999 ambos en la Universidad Simón Bolívar (USB) en
+            Caracas Venezuela. En el 2006 obtuvo el titulo de Doctor en
+            Ingeniería Telemática en la Universidad Politécnica de Cataluña
+            (UPC) en España. En el 2014 se desempeñó como investigadora en la
+            Universidad de las Fuerzas Armadas y en el 2015-17 en la Universidad
+            Politécnica Salesiana de Cuenca, ambas bajo el Programa PROMETEO de
+            la SENESCYT – Ecuador. Actualmente, es Profesora Titular Principal
+            de la Universidad Politécnica Salesiana de Cuenca. Es miembro Senior
+            de la IEEE, parte del consejo de desarrollo de actividades de EMBS a
+            nivel mundial, y vicepresidenta del capítulo de Ecuador para el
+            periodo 2020-2021. Presidenta electa capítulo de Ecuador para el
+            periodo 2021-2022. Su investigación se centra en Internet de las
+            cosas, Redes Inalámbricas, Redes de Sensores, Telemedicina y
+            Monitoreo remoto.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-speaker-item">
       <div class="foto-speaker">
         <img
           src="../../../assets/img/speakers/speakers-04.png"
@@ -58,8 +167,18 @@
       </div>
       <div class="container-descripcion">
         <div class="nombre-ponente">
+          <img
+            src="https://flagcdn.com/56x42/br.png"
+            srcset="
+              https://flagcdn.com/112x84/br.png  2x,
+              https://flagcdn.com/168x126/br.png 3x
+            "
+            width="56"
+            height="42"
+            alt="Brasil"
+            class="flag"
+          />
           <h1 class="nombre">Rodrigo Alvaro Lopes Martins</h1>
-          
         </div>
 
         <div>
@@ -85,7 +204,7 @@
           </p>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <div class="container-speaker-item">
       <div class="foto-speaker">
@@ -97,6 +216,17 @@
       </div>
       <div class="container-descripcion">
         <div class="nombre-ponente">
+              <img
+            src="https://flagcdn.com/56x42/pe.png"
+            srcset="
+              https://flagcdn.com/112x84/pe.png  2x,
+              https://flagcdn.com/168x126/pe.png 3x
+            "
+            width="56"
+            height="42"
+            alt="Peru"
+            class="flag"
+          />
           <h1 class="nombre">Jorge Rodolfo Beingolea Garay</h1>
           <!-- <h3 class="cargo">
             Universidade de São Paulo (USP). Faculdade de Medicina (FM)
@@ -163,6 +293,18 @@
       </div>
       <div class="container-descripcion">
         <div class="nombre-ponente">
+          
+              <img
+            src="https://flagcdn.com/56x42/pe.png"
+            srcset="
+              https://flagcdn.com/112x84/pe.png  2x,
+              https://flagcdn.com/168x126/pe.png 3x
+            "
+            width="56"
+            height="42"
+            alt="Peru"
+            class="flag"
+          />
           <h1 class="nombre">Benjamin Castaneda</h1>
           <!-- <h3 class="cargo">Professor & Chair - Biomedical Engineering</h3> -->
         </div>
@@ -218,6 +360,12 @@ export default {
   margin: 0;
   text-align: left;
 }
+
+.nombre-ponente {
+  display: flex;
+  flex-direction: row;
+}
+
 .cargo {
   text-align: left;
   color: var(--primary);
@@ -232,6 +380,10 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.flag {
+  margin: 0 1vw;
 }
 @media only screen and (min-width: 600px) {
   .container-speaker-item {
